@@ -151,10 +151,10 @@ h2 {
 }
 
 .three .text {
-  background-color: rgba(152, 255, 152, 0.8);
+  background-color: rgba(254, 135, 127, 0.8);
   top: 50px;
   right: 70px;
-  -moz-box-shadow: 0 0 120px lightgreen;
-  -webkit-box-shadow: 0 0 120px lightgreen;
-  box-shadow: 0 0 120px lightgreen;
+  -moz-box-shadow: 0 0 120px salmon;
+  -webkit-box-shadow: 0 0 120px salmon;
+  box-shadow: 0 0 120px salmon;
 }
