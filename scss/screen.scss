@@ -1,0 +1,103 @@
+@import "reset";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+a {
+  color: #800000;
+}
+
+header {
+  background: #98FF98;
+  height: 130px;
+  position: fixed;
+  width: 100%; 
+  z-index: 50;
+}
+
+section {
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  position: relative;
+}
+
+.one .text, .two .text, .three .text {
+  width: 30%;
+  min-width: 300px;
+  padding: 20px 32px;
+  border-radius: 8px;
+  color: white;
+  position: absolute;
+  line-height: 1.7em;
+  text-shadow: 0 0 10px black;
+  font-size: 25px;
+}
+
+div.logos {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  margin: 10px;
+  font-size: 2em;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #FE877F;
+  padding-bottom: 33px; 
+  padding-top: 33px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+
+.one {
+  background-image: url(/img/cupcakes.jpg);
+}
+.one .text {
+  background-color: rgba(254, 135, 127, 0.8);
+  bottom: 100px;
+  right: 100px;
+  -moz-box-shadow: 0 0 120px salmon;
+  -webkit-box-shadow: 0 0 120px salmon;
+  box-shadow: 0 0 120px salmon;
+}
+
+.two {
+  background-image: url(/img/netflix.jpg);
+}
+.two .text {
+  background-color: rgba(152, 255, 152, 0.8);
+  top: 100px;
+  left: 100px;
+  -moz-box-shadow: 0 0 120px lightgreen;
+  -webkit-box-shadow: 0 0 120px lightgreen;
+  box-shadow: 0 0 120px lightgreen;
+}
+
+.three {
+  background-image: url(/img/creep.jpg);
+}
+.three .text {
+  background-color: rgba(152, 255, 152, 0.8);
+  top: 50px;
+  right: 70px;
+  -moz-box-shadow: 0 0 120px lightgreen;
+  -webkit-box-shadow: 0 0 120px lightgreen;
+  box-shadow: 0 0 120px lightgreen;
+}
