@@ -31,6 +31,10 @@ section {
   position: relative;
 }
 
+div.row1, div.row2 {
+  margin-left: 120px;
+}
+
 div.photo1, div.photo2, div.photo3, {
   margin-top: 150px;
   display: inline-block;
