@@ -148,22 +148,22 @@ h2 {
 .cool {
   width: 500px;
   border-radius: 500px;
-  margin-left: 20px;
+  margin: 10px;
   display: inline-block;
 }
 
 .cooll {
   width: 500px;
   border-radius: 500px;
-  margin-left: 20px;
   display: inline-block;
+  margin: 10px;
 }
 
 .cute {
   width: 500px;
   height: 500px;
   border-radius: 500px;
-  margin-left: 20px;
+  margin: 10px;
   display: inline-block;
 }
 
