@@ -85,6 +85,20 @@ section {
   position: relative;
 }
 
+div.photo1, div.photo2, div.photo3 {
+  margin-top: 150px;
+  display: inline-block;
+}
+
+div.photo4, div.photo5 {
+  display: inline-block;
+}
+
+img.photo1, img.photo2, img.photo3, img.photo3-2, img.photo4, img.photo4-2, img.photo5 {
+  display: inline-block;
+  height: 600px;
+}
+
 .one .text, .two .text, .three .text {
   width: 30%;
   min-width: 300px;
@@ -131,6 +145,11 @@ h2 {
   -moz-box-shadow: 0 0 120px salmon;
   -webkit-box-shadow: 0 0 120px salmon;
   box-shadow: 0 0 120px salmon;
+}
+
+a.funny {
+  text-decoration: none;
+  color: lightgreen;
 }
 
 .best {
