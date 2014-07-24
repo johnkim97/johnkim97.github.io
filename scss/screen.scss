@@ -31,12 +31,74 @@ section {
   position: relative;
 }
 
+div.code {
+  margin-bottom: 20px;
+  margin-top: 20px; 
+}
+
+div.special {
+  line-height: 2.5em;
+  background: white;
+}
+
+p.numbers1, p.numbers2, p.numbers3, p.numbers4, p.numbers5 {
+  color: gold;
+  font-size: 100px;
+  display: inline-block;
+}
+
+p.numbers1 {
+  position: absolute;
+  top: 580px;
+  left: 170px;
+}
+
+p.numbers2 {
+  position: absolute;
+  top: 580px;
+  left: 520px;
+}
+
+p.numbers3 {
+  position: absolute;
+  top: 580px;
+  right: 520px;
+}
+
+p.numbers4 {
+  position: absolute;
+  top: 1060px;
+  left: 340px;
+}
+
+p.numbers5 {
+  position: absolute;
+  top: 1060px;
+  left: 1100px;
+}
+p.wow {
+  color: lightgreen;
+  text-shadow: 1px 1px black;
+  font-size: 30px;
+}
+span.me {
+  color: #FE877F;
+}
+
+span.you {
+  color: lightgreen;
+}
+
+span.gold {
+  color: gold;
+}
+
 div.row1, div.row2 {
   margin-left: 37px;
 }
 
 div.photo1, div.photo2, div.photo3, {
-  margin-top: 150px;
+  margin-top: 10px;
   display: inline-block;
 }
 
@@ -76,6 +138,7 @@ h1 {
   color: #FE877F;
   padding-bottom: 33px; 
   padding-top: 33px;
+  background: #98FF98;
 }
 
 
@@ -101,8 +164,25 @@ h2 {
 a.funny {
   text-decoration: none;
   color: lightgreen;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+     
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+     
+  overflow:hidden;
 }
 
+a.funny:hover {
+  color: gold;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+  -o-transform:rotate(270deg);
+}
 .best {
   background-image: url(/img/love.jpg);
 }
