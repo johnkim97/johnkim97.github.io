@@ -231,7 +231,7 @@ a.funny {
 }
 
 a.funny:hover {
-  color: gold;
+  color: red;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -o-transform: rotate(270deg);
