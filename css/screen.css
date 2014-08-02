@@ -55,254 +55,402 @@ table {
   background-position: 0 0;
 }
 
-html {
-  height: 100%;
-}
+/*Desktop*/
+@media screen and (min-width: 500px) {
+  /*All*/
+  body.home a.home, body.players a.player_page, body.bios a.bios {
+    border-bottom: 5px solid #cb2941;
+  }
+  body.home a.home a, body.players a.player_page a, body.bios a.bios a {
+    color: #cb2941;
+  }
 
-body {
-  height: 100%;
-  font-family: 'Lobster', cursive;
-  font-size: 20px;
-  line-height: 1.3;
-}
+  img {
+    display: inline-block;
+  }
 
-a {
-  color: #800000;
-}
+  body {
+    font-family: 'Oswald', sans-serif;
+  }
 
-header {
-  background: #98FF98;
-  height: 130px;
-  position: fixed;
-  width: 100%;
-  z-index: 50;
-}
+  h1 {
+    text-align: center;
+    color: #CB2941;
+    font-size: 3em;
+  }
 
-section {
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100%;
-  position: relative;
-}
+  h2 {
+    text-align: center;
+    color: #B26F28;
+  }
 
-div.code {
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
+  .nav {
+    background: #13AB43;
+    border-bottom: 1px solid white;
+  }
 
-div.special {
-  line-height: 2.5em;
-  background: white;
-}
+  body {
+    background: #005633;
+  }
 
-p.numbers1, p.numbers2, p.numbers3, p.numbers4, p.numbers5 {
-  color: gold;
-  font-size: 100px;
-  display: inline-block;
-}
+  /*Index.html*/
+  img.deer {
+    width: 100%;
+    height: 800px;
+  }
 
-p.numbers1 {
-  position: absolute;
-  top: 580px;
-  left: 170px;
-}
+  img.logo {
+    display: none;
+  }
 
-p.numbers2 {
-  position: absolute;
-  top: 580px;
-  left: 520px;
-}
+  .nav {
+    background: #13AB43;
+    border-bottom: 1px solid white;
+    height: 70px;
+    padding: 25px;
+  }
 
-p.numbers3 {
-  position: absolute;
-  top: 580px;
-  right: 350px;
-}
+  .nav a {
+    transition: all .5s linear;
+  }
 
-p.numbers4 {
-  position: absolute;
-  top: 1060px;
-  left: 340px;
-}
+  .nav a:hover {
+    background: #005633;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: white;
+  }
 
-p.numbers5 {
-  position: absolute;
-  top: 1060px;
-  left: 1100px;
-}
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+    font-size: 20px;
+  }
 
-p.wow {
-  color: lightgreen;
-  text-shadow: 1px 1px black;
-  font-size: 30px;
-}
+  .list {
+    display: inline-block;
+    margin-left: 7%;
+  }
 
-span.me {
-  color: #FE877F;
-}
+  .bucks {
+    width: 60%;
+    padding-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
-span.you {
-  color: lightgreen;
-}
+  .team p {
+    text-align: center;
+  }
 
-span.gold {
-  color: gold;
-}
+  .banner {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+  }
 
-div.row1, div.row2 {
-  margin-left: 37px;
-}
+  .titles {
+    background: #13AB43;
+    font-size: 25px;
+    padding: 10px;
+  }
 
-div.photo1, div.photo2, div.photo3 {
-  margin-top: 10px;
-  display: inline-block;
-}
+  span.champion {
+    color: white;
+    font-weight: bold;
+  }
 
-div.photo4, div.photo5 {
-  display: inline-block;
-}
+  .date, .date2 {
+    margin: 10px;
+  }
 
-img.photo1, img.photo2, img.photo3, img.photo3-2, img.photo4, img.photo4-2, img.photo5 {
-  display: inline-block;
-  height: 600px;
-}
+  h3 {
+    color: #CB2941;
+    text-align: center;
+  }
 
-.one .text, .two .text, .three .text {
-  width: 30%;
-  min-width: 300px;
-  padding: 20px 32px;
-  border-radius: 8px;
-  color: white;
-  position: absolute;
-  line-height: 1.7em;
-  text-shadow: 0 0 10px black;
-  font-size: 25px;
-}
+  ul.champs {
+    list-style-type: disc;
+    display: inline-block;
+  }
 
-div.logos {
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  margin: 10px;
-  font-size: 2em;
-}
+  footer {
+    border-top: 1px solid white;
+  }
 
-h1 {
-  font-weight: bold;
-  font-size: 50px;
-  text-align: center;
-  color: #FE877F;
-  padding-bottom: 33px;
-  padding-top: 33px;
-  background: #98FF98;
-}
+  .champs li, .team p {
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+  }
 
-h2 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: .8em;
-}
+  div.team, div.world {
+    max-width: 49.8%;
+    display: inline-block;
+    vertical-align: top;
+    background: #13AB43;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
 
-.one {
-  background-image: url(/img/cupcakes.jpg);
-}
+  /*Players.html*/
+  .picture {
+    display: inline-block;
+  }
 
-.one .text {
-  background-color: rgba(254, 135, 127, 0.8);
-  bottom: 100px;
-  right: 100px;
-  -moz-box-shadow: 0 0 120px salmon;
-  -webkit-box-shadow: 0 0 120px salmon;
-  box-shadow: 0 0 120px salmon;
-}
+  .info {
+    display: inline-block;
+    vertical-align: top;
+  }
 
-a.funny {
-  text-decoration: none;
-  color: lightgreen;
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  transition-duration: 2s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
-  overflow: hidden;
-}
+  img.face {
+    width: 500px;
+  }
 
-a.funny:hover {
-  color: red;
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-}
+  img.face2 {
+    width: 800px;
+  }
 
-.best {
-  background-image: url(/img/love.jpg);
-}
+  /*Bios.html*/
+  .roster p {
+    background: #13AB43;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: lightgrey;
+  }
 
-.awesome p {
-  text-align: center;
-  font-size: 30px;
-  line-height: 1.7em;
-  margin-bottom: 50px;
-  color: black;
-}
+  li.special {
+    color: black;
+    font-size: 30px;
+  }
 
-div.pic {
-  display: inline-block;
-}
+  /*Bios.html and Players.html*/
+  ul.player2 {
+    background: rgba(19, 171, 67, 0.7);
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    padding: 20px;
+    line-height: 1.5em;
+  }
 
-.cool {
-  width: 500px;
-  border-radius: 500px;
-  display: inline-block;
+  .roster {
+    color: white;
+    font-size: 20px;
+    background: #005633;
+    color: lightgrey;
+    padding: 100px 400px;
+    border-bottom: 10px solid #CB2941;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
+/*Mobile*/
+@media screen and (max-width: 500px) {
+  img {
+    display: inline-block;
+    width: 100%;
+  }
 
-.cooll {
-  width: 500px;
-  border-radius: 500px;
-  display: inline-block;
+  /*Index.html*/
+  img.deer {
+    display: none;
+  }
+
+  .team {
+    padding: 0 10px;
+  }
+
+  .titles {
+    background: #13AB43;
+    line-height: 2em;
+    font-size: 20px;
+  }
+
+  span.champion {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .banner {
+    height: 500px;
+  }
+
+  ul.champs {
+    list-style-type: disc;
+  }
+
+  h3 {
+    font-weight: bold;
+    color: #CB2941;
+    text-align: center;
+  }
+
+  .champs li, .team p {
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+  }
+
+  body.home a.home, body.players a.player_page, body.bios a.bios {
+    border-bottom: 5px solid #CB2941;
+  }
+  body.home a.home a, body.players a.player_page a, body.bios a.bios a {
+    color: #CB2941;
+  }
+
+  /*All*/
+  body {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #CB2941;
+  }
+
+  h2 {
+    text-align: center;
+    color: #B26F28;
+  }
+
+  body {
+    background: #005633;
+  }
+
+  footer {
+    border-top: 1px solid white;
+  }
+
+  .nav {
+    background: #13AB43;
+    border-bottom: 1px solid white;
+    height: 70px;
+    padding: 25px;
+    font-size: 14px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 22px;
+  }
+
+  /*Players.html*/
+  /*bios.html*/
+  li.special {
+    color: black;
+    font-size: 30px;
+  }
+
+  /*Players.html and bios.html*/
+  ul.player2 {
+    background: rgba(19, 171, 67, 0.7);
+    border-radius: 30px;
+    padding: 20px;
+    line-height: 1.5em;
+  }
+
+  .roster {
+    color: white;
+    font-size: 20px;
+    color: lightgrey;
+    padding: 0 20px;
+  }
 }
+@media screen and (max-width: 700px) {
+  img {
+    display: inline-block;
+    width: 100%;
+  }
 
-.cute {
-  width: 400px;
-  height: 500px;
-  border-radius: 500px;
-  display: inline-block;
-}
+  /*Index.html*/
+  img.deer {
+    display: none;
+  }
 
-.awesome h2 {
-  text-align: center;
-  color: #98FF98;
-  font-size: 50px;
-  background-color: rgba(254, 135, 127, 0.8);
-  height: 100px;
-  padding-top: 17px;
-}
+  .team {
+    padding: 0 10px;
+  }
 
-.two {
-  background-image: url(/img/netflix.jpg);
-}
+  .titles {
+    background: #13AB43;
+    line-height: 2em;
+    font-size: 20px;
+  }
 
-.two .text {
-  background-color: rgba(152, 255, 152, 0.8);
-  top: 100px;
-  left: 100px;
-  -moz-box-shadow: 0 0 120px lightgreen;
-  -webkit-box-shadow: 0 0 120px lightgreen;
-  box-shadow: 0 0 120px lightgreen;
-}
+  span.champion {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-.three {
-  background-image: url(/img/creep.jpg);
-}
+  .banner {
+    width: 100%;
+  }
 
-.three .text {
-  background-color: rgba(254, 135, 127, 0.8);
-  top: 50px;
-  right: 70px;
-  -moz-box-shadow: 0 0 120px salmon;
-  -webkit-box-shadow: 0 0 120px salmon;
-  box-shadow: 0 0 120px salmon;
+  ul.champs {
+    list-style-type: disc;
+  }
+
+  h3 {
+    font-weight: bold;
+    color: #CB2941;
+    text-align: center;
+  }
+
+  .champs li, .team p {
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+  }
+
+  div.world {
+    display: block;
+    max-width: 100%;
+  }
+
+  div.team {
+    max-width: 100%;
+  }
+
+  img.logo {
+    display: inline-block;
+  }
+
+  /*All*/
+  h1 {
+    text-align: center;
+    color: #CB2941;
+  }
+
+  h2 {
+    text-align: center;
+    color: #B26F28;
+  }
+
+  body {
+    background: #005633;
+  }
+
+  footer {
+    border-top: 1px solid white;
+  }
+
+  .nav {
+    background: #13AB43;
+    border-bottom: 1px solid white;
+  }
+
+  /*Player.html*/
+  .roster {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
